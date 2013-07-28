@@ -40,6 +40,7 @@ setup(name='cmsgarden.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.jbot',
           'collective.documentviewer',
           'collective.blog.star',
           'plone.app.event [ploneintegration,archetypes,dexterity]',
