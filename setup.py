@@ -40,7 +40,15 @@ setup(name='cmsgarden.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'collective.documentviewer',
+          'collective.blog.star',
+          'plone.app.event [ploneintegration,archetypes,dexterity]',
+          'vs.jquerybookmarks',
+          'wildcard.foldercontents',
+          'Products.PloneFormGen',
+          'Products.PloneGlossary',
+          'plone.app.multilingual [archetypes, dexterity]',
+          'redturtle.smartlink',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
