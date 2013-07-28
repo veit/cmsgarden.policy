@@ -22,6 +22,7 @@
 
   <browser:jbot
       directory="overrides"
+      layer=".interfaces.IThemeSpecific"
       />
 
 </configure>
